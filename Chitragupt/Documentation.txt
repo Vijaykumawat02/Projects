@@ -1,0 +1,18 @@
+I created a tool named chitragupt using AI(copilot). It takes a target URL with the -u switch, runs a set of commands against it, and saves each command’s output into a separate file named after the command itself.
+
+
+Setup:
+	download the chitragupt.py and tools.json file
+	give the permission "chmod +x chitragupt.py"
+
+
+How It Works:
+
+I recommend to use this tool with "sudo" some commands won't work properly without "sudo".
+
+Command: python3 chitragupt.py -u example.com	OR	./chitragupt.py -u example.com
+
+**customize each command according to yourself from the tools.json file**
+
+- You can add or remove commands in the commands list depending on your recon workflow.
+- Make sure the tools (whatweb, nmap, dirb, curl) are installed on Kali Linux.

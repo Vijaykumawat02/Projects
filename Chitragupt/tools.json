@@ -1,0 +1,20 @@
+[
+  {
+    "command": "nmap -sC -sV",
+    "normalize_url": false,
+    "requires_root": true,
+    "output_format": "txt"
+  },
+  {
+    "command": "dirb",
+    "normalize_url": true,
+    "requires_root": false,
+    "output_format": "txt"
+  },
+  {
+    "command": "whatweb",
+    "normalize_url": false,
+    "requires_root": false,
+    "output_format": "json"
+  }
+]
